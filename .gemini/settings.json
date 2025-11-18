@@ -1,0 +1,29 @@
+{
+  "context": {
+    "fileName": ["GEMINI.md", "STYLE.md"]
+  },
+  "mcpServers": {
+    "context7": {
+      "httpUrl": "https://mcp.context7.com/mcp"
+    },
+    "atlassian": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.atlassian.com/v1/sse"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ]
+    }
+  },
+  "ui": {
+    "theme": "ANSI"
+  },
+  "preferedEditor": "vscode"
+}
