@@ -13,13 +13,6 @@
         "mcp-remote",
         "https://mcp.atlassian.com/v1/sse"
       ]
-    },
-    "github": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-github"
-      ]
     }
   },
   "ui": {
@@ -27,3 +20,5 @@
   },
   "preferedEditor": "vscode"
 }
+
+
