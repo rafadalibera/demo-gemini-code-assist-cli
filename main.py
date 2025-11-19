@@ -28,7 +28,8 @@ def home_page():
 def convert():
     number = request.form["number"]
     roman = converter.number_to_roman(number)
-    return render_template("convert.html", number=number, roman=roman)
+    hexadecimal = converter.number_to_hexadecimal(number)
+    return render_template("convert.html", number=number, roman=roman, hexadecimal=hexadecimal)
 
 
 if __name__ == "__main__":

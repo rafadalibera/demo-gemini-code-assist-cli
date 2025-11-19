@@ -45,3 +45,8 @@ def number_to_roman(number):
         number -= 1
 
     return roman
+
+
+def number_to_hexadecimal(number):
+    number = int(number)
+    return hex(number)
